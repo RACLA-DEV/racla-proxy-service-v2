@@ -1,6 +1,6 @@
 # RACLA Proxy Service
 
-RACLA에서 V-ARCHIVE, 전일 아카이브 등 외부 API 또는 서비스와의 CORS 이슈를 해결하기 위한 프록시 서비스입니다.    
+[RACLA](https://r-archive.zip)에서 [V-ARCHIVE](https://v-archive.net), [전일 아카이브](https://hard-archive.com) 등 외부 API 또는 서비스와의 CORS 이슈를 해결하기 위한 프록시 서비스입니다.    
 추후에 제공될 신규 데스크톱 앱에서는 프록시 주소 변경 기능이 추가될 예정으로 사용자가 직접 구축하여 사용할 수 있습니다.
 
 ## 설치 및 실행
@@ -38,7 +38,7 @@ interface ProxyRequest {
 
 ### 사용 예시
 
-V-ARCHIVE Open API에서 제공하는 개발용 계정을 사용하여 요청하는 예시입니다.
+[V-ARCHIVE Open API](https://github.com/djmax-in/openapi)에서 제공하는 개발용 계정을 사용하여 요청하는 예시입니다.
 
 1. GET 요청 with Query Parameters
 ```typescript
