@@ -14,7 +14,7 @@ yarn start
 
 ### 프록시 요청 엔드포인트
 
-- **URL**: `/api/v1/proxy`
+- **URL**: `/api/v2/proxy`
 - **Method**: `POST`
 - **Content-Type**: `application/json`
 
