@@ -1,8 +1,7 @@
-import { Module } from '@nestjs/common';
-import { HttpModule } from '@nestjs/axios';
-// import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { ProxyController } from './proxy/proxy.controller';
+import { HttpModule } from '@nestjs/axios'
+import { Module } from '@nestjs/common'
+import { AppService } from './app.service'
+import { ProxyController } from './proxy/proxy.controller'
 
 @Module({
   imports: [HttpModule],
