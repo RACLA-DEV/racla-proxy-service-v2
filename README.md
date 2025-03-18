@@ -98,6 +98,7 @@ interface ProxyResponse {
 
 2. 보안
    - 민감한 인증 정보는 headers를 통해 전달하세요.
+   - CSRF 토큰 적용을 권장합니다.
    - HTTPS 사용을 권장합니다.
 
 3. 에러 처리
