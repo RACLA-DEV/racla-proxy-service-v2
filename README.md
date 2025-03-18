@@ -6,8 +6,8 @@
 ## 설치 및 실행
 
 ```bash
-yarn install
-yarn start
+yarn install #or npm install
+yarn start #or npm run start
 ```
 
 ## API 명세
