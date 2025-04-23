@@ -1,8 +1,9 @@
 # RACLA Proxy Service
 
 [RACLA](https://r-archive.zip)에서 [V-ARCHIVE](https://v-archive.net), [전일 아카이브](https://hard-archive.com) 등 외부 API 또는 서비스와의 CORS 이슈를 해결하기 위한 프록시 서비스입니다.    
+    
 기존에 사용하던 프록시 서비스를 너무 대충 짠 나머지 Vite 기반의 RACLA 데스크톱 앱에서 사용할려고 똑같은 베이스로 만들어만 놓았다가    
-결국에는 사용하지 않고 스프링 부트 3와 스프링 클라우드 기반으로 재작성된 [RACLA-DEV/racla-spring-proxy-service-v2](https://github.com/RACLA-DEV/racla-spring-proxy-service)를 사용합니다. ~(개발자 능지 이슈)~
+결국에는 사용하지 않고 스프링 부트 3와 스프링 클라우드 기반으로 재작성된 [RACLA-DEV/racla-spring-proxy-service](https://github.com/RACLA-DEV/racla-spring-proxy-service)를 사용합니다. ~(개발자 능지 이슈)~
 
 ## 설치 및 실행
 
